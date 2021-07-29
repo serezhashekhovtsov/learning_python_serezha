@@ -1,4 +1,4 @@
-#cars = ['audi', 'bmw', 'subaru', 'toyota']
+cars = ['audi', 'bmw', 'subaru', 'toyota']
 
 #for car in cars:
     #if car == 'bmw':
@@ -30,4 +30,10 @@ age_1 = 45
 print(f'\n --{age >= 18 and age <= 45}')
 print(f'\n --{age < 17 and age <= 45}')
 print(f'\n ❆❆❆ {age < 17 or age <= 45}')
+
+spisok = 'vaz' in cars
+spisok_3 = 'audi' not  in cars
+spisok_2 = 'audi' in cars
+
+print(f'\n ❆❆❆-- {spisok}, {spisok_2}, {spisok_3}')
 
